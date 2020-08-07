@@ -1,6 +1,5 @@
-LABEL maintainer="alfonso.monaco@ba.infn.it"
-
 FROM python:3.7
+LABEL maintainer="alfonso.monaco@ba.infn.it"
 
 RUN apt-get update \
         && apt-get install -y --no-install-recommends \
